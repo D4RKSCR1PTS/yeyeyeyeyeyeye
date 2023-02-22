@@ -19,9 +19,8 @@ except:
   quit()
 storage = []
 price = config['price']
-import pyautogui; from pynput.mouse import *
+import pyautogui
 print("Started")
-mouse = Controller()
 while True:
   image = pyautogui.locateCenterOnScreen('assets/image.png', confidence = 0.9)
   if image:
